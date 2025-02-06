@@ -10,7 +10,7 @@ for i in range(len(n)):
 l=len(n)
 
 n2=n[::-1]
-o=["thousand","million","billion","trillion","quadrillion"]
+o=["","thousand","million","billion","trillion","quadrillion"]
 #more options can be added to this list to extend the limit of output
 v1=o[:l//3][::-1]
 
